@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Lora', serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.cover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2.5rem 4rem;
+    margin-bottom: 2rem;
+    gap: 4rem;
+}
+
+.cover .infos{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    gap: 2rem;
+}
+
+.cover .infos > h1{
+    font-size: 2rem;
+}
+
+.cover .infos > p{
+    font-size: 1.06rem;
+}
+
+.logo img{
+    width: 25rem;
+}
+
+.cover .infos > button, .s-four .modulos > button, .s-seven > button {
+    width: 29.5rem;
+    height: 3.5rem;
+    font-size: 0.92rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color:#C69BAA;
+    border-radius: 1rem;
+    border: none;
+}
+
+.cover .infos > button:hover, .s-four .modulos > button:hover, .s-seven > button:hover{
+    background-color: #b07f8e;
+}
+
+.cover .infos > button:active, .s-four .modulos > button:active, .s-seven > button:active{
+    background-color: #c8748d;
+}
+
+.cover-img{
+    width: 38rem;
+    background: url(./imgs/Cover.png) no-repeat center, radial-gradient(circle, rgba(198,155,170,0.85) 0%, rgba(0,0,0,1) 65%) center;
+    background-size: 70%, 100%;
+}
+
+.cover-img img {
+    width: 100%;
+}
+
+.s-one{
+    width: 100%;
+    background-color: white;
+    padding: 6rem;
+}
+
+.s-one .infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.s-one .infos h1 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    padding: 0 12rem;
+    font-weight: 700;
+}
+
+.s-one .infos p{
+    color: black;
+    text-align: center;
+    width: 34rem;
+}
+
+.s-one .infos ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-one .infos ul > li{
+    width: 15rem;
+    height: 16.5rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    list-style-type: none;
+}
+
+.s-one .infos ul > li img{
+    width: 5rem;
+    background-color: #C69BAA;
+    border-radius: 50%;
+}
+
+.s-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem 0 10rem 0;
+    background: url(./imgs/FundoPreto_Diamantes.jpg) no-repeat bottom center;
+    background-size: contain;
+    background-size: 20%;
+}
+
+.s-two .infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s-two .infos > hr {
+    margin: 2rem 0 1rem 0;
+    background-color: #C69BAA;
+    width: 10rem;
+    height: .1rem;
+    border: none;
+}
+
+.s-two .infos h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 15rem;
+    font-weight: 700;
+}
+
+.s-two .fdbcks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49rem;
+    gap: 1rem;
+}
+
+.one, .two, .three {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.one img, .two img, .three img {
+    width: 15rem;
+}
+
+.s-three{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 6rem 0;
+}
+
+.s-three .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s-three .logo > h1{
+    font-weight: 400;
+    letter-spacing: 0.35rem;
+    text-transform: uppercase;
+}
+
+.s-three .logo img{
+    width: 23rem;
+}
+
+.s-three img{
+    width: 35rem;
+}
+
+.s-three p{
+    width: 31rem;
+    text-align: center;
+}
+
+.s-three ul > li, .s-seven .price ul > li {
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.s-three .infos {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    border: 1px solid #C69BAA;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.s-three .infos > h2{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.s-three ul > li{
+    list-style-type: none;
+}
+
+.s-four {
+    width: 100%;
+    background-color: white;
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.s-four .infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s-four .infos > h1 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.s-four .infos hr, .s-seven .price hr {
+    margin: 1rem 0 1rem 0;
+    background-color: #C69BAA;
+    width: 10rem;
+    height: .1rem;
+    border: none;
+}
+
+.s-four .modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 10rem;
+}
+
+.modulo {
+    width: 25rem;
+    height: 14rem;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.modulo > h1 {
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.modulo > h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #C69BAA;
+}
+
+.modulo > p {
+    font-size: 0.9rem;
+    padding: 0 .2rem;
+}
+
+.s-five {
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    gap: 2rem;
+}
+
+.s-five .infos{
+    padding-top: .5rem;
+}
+
+.s-five img{
+    width: 8rem;
+}
+
+.s-five h4, .s-six h4{
+    font-size: 1.35rem;
+    text-transform: uppercase;
+    color: #C69BAA;
+}
+
+.s-five h1 {
+    font-size: 3rem;
+}
+
+.s-five h2 {
+    letter-spacing: .1rem;
+}
+
+.s-six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6rem;
+    gap: 4rem;
+}
+
+.s-six > img {
+    width: 21rem;
+    border-radius: 1rem;
+}
+
+.s-six .infos{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    width: 27rem;
+    padding-top: .5rem;
+
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.s-six .infos img{
+    width: 20rem;
+    margin: .35rem 0 1rem 0;
+}
+
+.s-six .infos p {
+    padding: .5rem 0;
+}
+
+.s-seven {
+    background-color: black;
+    background:
+            radial-gradient(ellipse at top, #181818, transparent 65%),
+            radial-gradient(circle at bottom right, rgba(197, 155, 169, 0.55), transparent 35%);
+    padding: 6rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem 6rem;
+    
+}
+
+.s-seven button {
+    animation: pulse;
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+    font-size: .85rem;
+}
+
+.s-seven .price {
+    backdrop-filter: blur(.3rem) saturate(200%);
+    -webkit-backdrop-filter: blur(.3rem) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    border: 1px solid #eeeeee;
+    width: 21rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.s-seven .price h2{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.s-seven .price p, .s-seven .price ul > li{
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+
+.s-seven .price h3{
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: line-through #c8748d;
+}
+
+.s-seven .price h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #C69BAA;
+}
+
+.s-seven .price h4{
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    font-size: .7rem;
+}
+
+.s-seven .guarantee {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    border-radius: 1rem;
+    width: 19.8rem;
+    gap: .75rem;
+}
+
+.s-seven .guarantee p{
+    font-size: .9rem;
+}
+
+.s-seven .guarantee img {
+    width: 10rem;
+}
+
+footer {
+    background-color: #181818;
+    padding: 1.2rem;
+    font-size: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' 200,
+  'opsz' 48;
+  color: #C69BAA;
+}
+
+@media screen and (min-width: 1600px ){
+    .s-four{
+        padding: 5rem 14rem;
+    }
+}
+
+@media screen and (min-width: 1920px ){
+    .s-one .infos h1 {
+        padding: 0 28rem;
+    }
+
+    .s-one .infos p{
+        width: 40rem;
+    }
+
+    .s-two .infos h1 {
+        padding: 0 30rem;
+    }
+
+    .s-four{
+        padding: 5rem 24rem;
+    }
+
+    .s-seven {
+        padding: 6rem 19rem;
+    }
+}
+
+@media screen and (min-width: 2560px ){
+    .s-one .infos h1 {
+        padding: 0 40rem;
+    }
+
+    .s-two .infos h1 {
+        padding: 0 48rem;
+    }
+
+    .s-four{
+        padding: 5rem;
+    }
+
+    .s-seven {
+        padding: 6rem 40rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .s-one .infos h1 {
+        padding: 0 9rem;
+    }
+    
+    .s-one .infos ul {
+        padding:  0 10rem;
+    }
+
+    .s-two .infos h1 {
+        padding: 0 8rem;
+    }
+
+    .s-four{
+        padding: 5rem 0rem;
+    }
+
+    .s-four .modulos{
+        padding: 0 2rem;
+    }
+
+}
+
+@media screen and (max-width: 1151px) {
+
+    .cover{
+        padding: 5rem 0;
+
+    }
+
+    .cover .infos{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .s-one .infos h1 {
+        padding: 0 2rem;
+    }
+    
+    .s-one .infos ul {
+        padding:  0 3rem;
+    }
+
+    .s-four{
+        padding: 5rem 0rem;
+    }
+
+    .s-four .modulos{
+        padding: 0 2rem;
+    }
+
+    .s-six .infos{
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1004px) {
+
+    .s-seven .guarantee{
+        align-items: center;
+        text-align: center;
+    }
+
+    .s-two .fdbcks {
+        flex-wrap: wrap;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .s-two .fdbcks {
+        flex-direction: column;
+    }
+
+    .one, .two, .three {
+        width: 25rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .one img, .two img, .three img {
+        width: 25rem;
+    }
+
+    .s-one .infos ul {
+        padding: 0 1rem;
+    }
+
+    .s-one .infos h1 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .s-one .infos h1 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .s-one .infos p{
+        padding: 0 2rem;
+    }
+
+    .s-two .infos h1{
+        padding: 0 4rem;
+    }
+
+    .s-three .infos{
+        width: 30rem;
+    }
+
+    .s-three p {
+        width: 23.5rem;
+    }
+
+    .s-three img{
+        width: 25rem;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .s-one .infos h1 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .s-one .infos p{
+        padding: 0 2rem;
+    }
+
+    .s-two .infos h1{
+        padding: 0 4rem;
+    }
+
+    .s-three .infos{
+        width: 30rem;
+    }
+
+    .s-three p {
+        width: 23.5rem;
+    }
+
+    .s-three img{
+        width: 25rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
