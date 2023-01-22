@@ -75,7 +75,7 @@ a {
 
 .cover-img{
     width: 38rem;
-    background: url(./imgs/Cover.png) no-repeat center, radial-gradient(circle, rgba(198,155,170,0.85) 0%, rgba(0,0,0,1) 65%) center;
+    background: url(../imgs/Cover.png) no-repeat center, radial-gradient(circle, rgba(198,155,170,0.85) 0%, rgba(0,0,0,1) 65%) center;
     background-size: 70%, 100%;
 }
 
@@ -149,7 +149,7 @@ a {
     align-items: center;
     gap: 2rem;
     padding: 5rem 0 10rem 0;
-    background: url(./imgs/FundoPreto_Diamantes.jpg) no-repeat bottom center;
+    background: url(../imgs/FundoPreto_Diamantes.jpg) no-repeat bottom center;
     background-size: contain;
     background-size: 20%;
 }
