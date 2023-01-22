@@ -1,4 +1,4 @@
-function initScrollReveal() {
+function scrollRevealAnimation() {
     const scrollReveal = ScrollReveal({
         origin: "top",
         duration: 2000,
@@ -11,7 +11,7 @@ function initScrollReveal() {
 }
 
 
-function initScrollRevealLeft() {
+function scrollRevealAnimationLeft() {
     const scrollRevealLeft = ScrollReveal({
         origin: "left",
         distance: "2rem",
@@ -22,5 +22,5 @@ function initScrollRevealLeft() {
     scrollRevealLeft.reveal(".scroll-reveal-left")
 }
 
-initScrollReveal()
-initScrollRevealLeft()
+scrollRevealAnimation()
+scrollRevealAnimationLeft()
