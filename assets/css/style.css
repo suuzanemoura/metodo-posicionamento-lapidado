@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&family=Lora:wght@400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -43,7 +43,9 @@ a {
 }
 
 .cover .infos > h1{
-    font-size: 2rem;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .cover .infos > p{
@@ -54,8 +56,7 @@ a {
     width: 25rem;
 }
 
-.cover .infos > button, .s-four .modulos > button, .s-seven > button {
-    width: 29.5rem;
+.cover .infos > button, .s-four button, .s-six > button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -64,16 +65,16 @@ a {
     font-size: 0.92rem;
     font-weight: 700;
     text-transform: uppercase;
-    background-color:#C69BAA;
+    background: linear-gradient(90deg,#74c051,#1f7400);
     border-radius: 1rem;
     border: none;
 }
 
-.cover .infos > button:hover, .s-four .modulos > button:hover, .s-seven > button:hover{
+.cover .infos > button:hover, .s-four button:hover, .s-six > button:hover{
     background-color: #b07f8e;
 }
 
-.cover .infos > button:active, .s-four .modulos > button:active, .s-seven > button:active{
+.cover .infos > button:active, .s-four button:active, .s-six > button:active{
     background-color: #c8748d;
 }
 
@@ -102,10 +103,11 @@ a {
 }
 
 .s-one .infos h1 {
+    font-family: 'Kaisei HarunoUmi', serif;
     text-transform: uppercase;
     color: black;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 2.6rem;
     padding: 0 12rem;
     font-weight: 700;
@@ -174,6 +176,7 @@ a {
 }
 
 .s-two .infos h1 {
+    font-family: 'Kaisei HarunoUmi', serif;
     text-transform: uppercase;
     text-align: center;
     padding: 0 15rem;
@@ -228,6 +231,7 @@ a {
 }
 
 .s-three .logo > h1{
+    font-family: 'Kaisei HarunoUmi', serif;
     font-weight: 400;
     letter-spacing: 0.35rem;
     text-transform: uppercase;
@@ -246,7 +250,7 @@ a {
     padding: 0 30rem;
 }
 
-.s-three ul > li, .s-seven .price ul > li {
+.s-three ul > li, .s-six .price ul > li {
     list-style-type: none;
     display: flex;
     gap: 0.5rem;
@@ -283,7 +287,12 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
+}
+
+.s-four button, .s-six button {
+    margin: 0 15rem;
 }
 
 .s-four .infos {
@@ -294,6 +303,7 @@ a {
 }
 
 .s-four .infos > h1 {
+    font-family: 'Kaisei HarunoUmi', serif;
     text-transform: uppercase;
     color: black;
     text-align: center;
@@ -301,7 +311,7 @@ a {
     font-weight: 700;
 }
 
-.s-four .infos hr, .s-seven .price hr {
+.s-four .infos hr, .s-six .price hr {
     margin: 1rem 0 1rem 0;
     background-color: #C69BAA;
     width: 10rem;
@@ -315,7 +325,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 0 10rem;
+    padding: 0 3rem;
 }
 
 .modulo {
@@ -328,11 +338,13 @@ a {
     text-align: center;
     flex-direction: column;
     gap: 0.25rem;
-    padding: 2rem;
+    padding: 2rem 1.85rem;
     border-radius: 1rem;
 }
 
 .modulo > h1 {
+    font-size: 1.45rem;
+    font-family: 'Kaisei HarunoUmi', serif;
     text-transform: uppercase;
     margin-bottom: .5rem;
 }
@@ -349,37 +361,6 @@ a {
 }
 
 .s-five {
-    background-color: #181818;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 0;
-    gap: 2rem;
-}
-
-.s-five .infos{
-    padding-top: .5rem;
-}
-
-.s-five img{
-    width: 8rem;
-}
-
-.s-five h4, .s-six h4{
-    font-size: 1.35rem;
-    text-transform: uppercase;
-    color: #C69BAA;
-}
-
-.s-five h1 {
-    font-size: 3rem;
-}
-
-.s-five h2 {
-    letter-spacing: .1rem;
-}
-
-.s-six {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,12 +369,12 @@ a {
     gap: 4rem;
 }
 
-.s-six > img {
+.s-five > img {
     width: 21rem;
     border-radius: 1rem;
 }
 
-.s-six .infos{
+.s-five .infos{
     display: flex;
     justify-content: center;
     align-items: right;
@@ -405,16 +386,16 @@ a {
     object-fit: cover;
 }
 
-.s-six .infos img{
+.s-five .infos img{
     width: 20rem;
     margin: .35rem 0 1rem 0;
 }
 
-.s-six .infos p {
+.s-five .infos p {
     padding: .5rem 0;
 }
 
-.s-seven {
+.s-six {
     background-color: black;
     background:
             radial-gradient(ellipse at top, #181818, transparent 65%),
@@ -428,14 +409,14 @@ a {
     
 }
 
-.s-seven button {
+.s-six button {
     animation: pulse;
     animation-duration: 1s; 
     animation-iteration-count: infinite;
     font-size: .85rem;
 }
 
-.s-seven .price {
+.s-six .price {
     backdrop-filter: blur(.3rem) saturate(200%);
     -webkit-backdrop-filter: blur(.3rem) saturate(200%);
     background-color: rgba(255, 255, 255, 0.1);
@@ -450,36 +431,37 @@ a {
     padding: 2rem;
 }
 
-.s-seven .price h2{
+.s-six .price h2{
     text-transform: uppercase;
     font-size: 1.2rem;
 }
 
-.s-seven .price p, .s-seven .price ul > li{
+.s-six .price p, .s-six .price ul > li{
     margin-bottom: 1rem;
     font-size: .9rem;
 }
 
-.s-seven .price h3{
+.s-six .price h3{
     text-transform: uppercase;
     font-size: 1rem;
     text-decoration: line-through #c8748d;
 }
 
-.s-seven .price h1{
+.s-six .price h1{
+    font-family: 'Kaisei HarunoUmi', serif;
     text-transform: uppercase;
     font-size: 2.5rem;
     color: #C69BAA;
 }
 
-.s-seven .price h4{
+.s-six .price h4{
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-weight: 400;
     font-size: .7rem;
 }
 
-.s-seven .guarantee {
+.s-six .guarantee {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -490,11 +472,11 @@ a {
     gap: .75rem;
 }
 
-.s-seven .guarantee p{
+.s-six .guarantee p{
     font-size: .9rem;
 }
 
-.s-seven .guarantee img {
+.s-six .guarantee img {
     width: 10rem;
 }
 
@@ -518,7 +500,7 @@ footer {
 
 @media screen and (min-width: 1600px ){
     .s-four{
-        padding: 5rem 14rem;
+        padding: 5rem 7rem;
     }
 }
 
@@ -532,11 +514,15 @@ footer {
     }
 
     .s-four{
-        padding: 5rem 24rem;
+        padding: 5rem 18rem;
     }
 
-    .s-seven {
-        padding: 6rem 19rem;
+    .s-four .modulos {
+        padding: 0 2rem;
+    }
+
+    .s-six {
+        padding: 6rem 24rem;
     }
 }
 
@@ -549,16 +535,22 @@ footer {
         padding: 0 48rem;
     }
 
-    .s-four{
-        padding: 5rem;
+    .s-four .modulos {
+        padding: 0 20rem;
     }
 
-    .s-seven {
+    .s-six {
         padding: 6rem 40rem;
     }
 }
 
 @media screen and (max-width: 1250px) {
+
+    .cover .infos{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     .s-one .infos h1 {
         padding: 0 9rem;
@@ -581,7 +573,7 @@ footer {
     }
 
     .s-four{
-        padding: 5rem 0rem;
+        padding: 5rem 2rem;
     }
 
     .s-four .modulos{
@@ -599,12 +591,6 @@ footer {
 
     .s-one .infos p{
         padding: 0 13rem;
-    }
-    
-    .cover .infos{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     .s-two .fdbcks {
@@ -644,23 +630,27 @@ footer {
     }
 
     .s-four{
-        padding: 5rem 0rem;
+        padding: 5rem 1rem;
     }
 
     .s-four .modulos{
         padding: 0 1rem;
     }
 
-    .s-six .infos{
+    .s-five .infos{
         align-items: center;
         text-align: center;
+    }
+
+    .s-six > button {
+        margin: 0 1rem;
     }
 
 }
 
 @media screen and (max-width: 1004px) {
 
-    .s-seven .guarantee{
+    .s-six .guarantee{
         align-items: center;
         text-align: center;
     }
@@ -690,6 +680,10 @@ footer {
 
     .s-three > p {
         padding: 0 10rem;
+    }
+
+    .s-four button{
+        margin: 0 1rem;
     }
 }
 
@@ -742,7 +736,7 @@ footer {
 
 @media screen and (max-width: 550px) {
 
-    .cover .infos > button, .s-four .modulos > button, .s-seven > button {
+    .cover .infos > button, .s-four .modulos > button, .s-six > button {
         width: 16rem;
     }
 
@@ -756,8 +750,7 @@ footer {
     }
 
     .cover .infos > p {
-        font-size: .9rem;
-        padding: 0 4rem;
+        padding: 0 2rem;
     }
 
     .s-one {
@@ -817,39 +810,31 @@ footer {
         height: 19rem;
     }
 
-    .s-five {
-        padding: 4rem 2rem;
-    }
-
-    .s-five h1 {
-        font-size: 2rem;
-    }
-
-    .s-six > img {
+    .s-five > img {
         width: 18rem;
     }
 
-    .s-six .infos img {
+    .s-five .infos img {
         width: 16rem;
     }
 
-    .s-seven {
+    .s-six {
         padding: 6rem 2rem;
     }
     
-    .s-seven .price {
+    .s-six .price {
         text-align: center;
     }
 
-    .s-seven .price > ul {
+    .s-six .price > ul {
         text-align: left;
     }
 
-    .s-seven .price > h1 {
+    .s-six .price > h1 {
         line-height: 2.5rem;
     }
 
-    .s-seven .price > h4 {
+    .s-six .price > h4 {
         padding-top: .5rem;
     }
 
@@ -889,6 +874,10 @@ footer {
         width: 16rem;
     }
 
+    .s-four {
+        padding: 5rem 0rem;
+    }
+
     .modulo {
         width: 16rem;
         height: 21rem;
@@ -898,23 +887,7 @@ footer {
         font-size: 1.2rem;
     }
 
-    .s-five img {
-        width: 6rem;
-    }
-
-    .s-five h4, .s-six h4 {
-        font-size: 1rem;
-    }
-
-    .s-five h1 {
-        font-size: 1.6rem;
-    }
-
-    .s-five h2 {
-        font-size: 1.2rem;
-    }
-
-    .s-six > img {
+    .s-five > img {
         width: 15rem;
     }
 
