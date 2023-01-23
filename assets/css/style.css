@@ -71,11 +71,11 @@ a {
 }
 
 .cover .infos > button:hover, .s-four button:hover, .s-six > button:hover{
-    background-color: #b07f8e;
+    background: #31b302;
 }
 
 .cover .infos > button:active, .s-four button:active, .s-six > button:active{
-    background-color: #c8748d;
+    background-color: #44d102;
 }
 
 .cover-img{
