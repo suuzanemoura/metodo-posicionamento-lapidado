@@ -230,8 +230,9 @@ a {
     width: 35rem;
 }
 
-.s-three p{
+.s-three > p{
     text-align: center;
+    padding: 0 30rem;
 }
 
 .s-three ul > li, .s-seven .price ul > li {
@@ -564,6 +565,10 @@ footer {
         padding: 0 8rem;
     }
 
+    .s-three > p {
+        padding: 0 20rem;
+    }
+
     .s-four{
         padding: 5rem 0rem;
     }
@@ -606,6 +611,10 @@ footer {
 
     .s-one .infos p{
         padding: 0 10rem;
+    }
+
+    .s-three > p {
+        padding: 0 15rem;
     }
 
     .s-four{
@@ -668,6 +677,10 @@ footer {
     .one img, .two img, .three img {
         width: 25rem;
     }
+
+    .s-three > p {
+        padding: 0 10rem;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -694,8 +707,9 @@ footer {
     }
 
     .s-three > p, .s-three > ul {
-        padding: 0 2rem;
+        padding: 0 5rem;
     }
+
 }
 
 
@@ -745,6 +759,10 @@ footer {
 
     .s-three img {
         width: 20rem;
+    }
+
+    .s-three > p, .s-three > ul {
+        padding: 0 2rem;
     }
 
     .s-four .infos > h1{
