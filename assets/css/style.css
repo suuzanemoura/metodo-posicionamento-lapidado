@@ -56,11 +56,7 @@ a {
 
 .cover .infos > button, .s-four .modulos > button, .s-seven > button {
     width: 29.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+    height: 3.5rem;
     font-size: 0.92rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -114,7 +110,7 @@ a {
 .s-one .infos p{
     color: black;
     text-align: center;
-    padding: 0 20rem;
+    width: 34rem;
 }
 
 .s-one .infos ul{
@@ -231,6 +227,7 @@ a {
 }
 
 .s-three p{
+    width: 31rem;
     text-align: center;
 }
 
@@ -241,7 +238,7 @@ a {
 }
 
 .s-three .infos {
-    width: 38rem;
+    width: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -515,6 +512,10 @@ footer {
         padding: 0 28rem;
     }
 
+    .s-one .infos p{
+        width: 40rem;
+    }
+
     .s-two .infos h1 {
         padding: 0 30rem;
     }
@@ -551,10 +552,6 @@ footer {
     .s-one .infos h1 {
         padding: 0 9rem;
     }
-
-    .s-one .infos p{
-        padding: 0 15rem;
-    }
     
     .s-one .infos ul {
         padding:  0 10rem;
@@ -581,11 +578,6 @@ footer {
 
     }
 
-    .s-one .infos p{
-        padding: 0 13rem;
-    }
-    
-
     .cover .infos{
         justify-content: center;
         align-items: center;
@@ -602,10 +594,6 @@ footer {
     
     .s-one .infos ul {
         padding:  0 3rem;
-    }
-
-    .s-one .infos p{
-        padding: 0 10rem;
     }
 
     .s-four{
@@ -630,10 +618,6 @@ footer {
         text-align: center;
     }
 
-    .s-one .infos p{
-        padding: 0 8rem;
-    }
-
     .s-two .fdbcks {
         flex-wrap: wrap;
         padding: 0 1rem;
@@ -641,18 +625,6 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-
-    .s-one .infos ul {
-        padding: 0 1rem;
-    }
-
-    .s-one .infos h1 {
-        padding: 0;
-    }
-
-    .s-one .infos p{
-        padding: 0 2rem;
-    }
 
     .s-two .fdbcks {
         flex-direction: column;
@@ -667,6 +639,14 @@ footer {
 
     .one img, .two img, .three img {
         width: 25rem;
+    }
+
+    .s-one .infos ul {
+        padding: 0 1rem;
+    }
+
+    .s-one .infos h1 {
+        padding: 0;
     }
 }
 
@@ -689,155 +669,44 @@ footer {
         width: 30rem;
     }
 
-    .s-three img{
-        width: 25rem;
+    .s-three p {
+        width: 23.5rem;
     }
 
-    .s-three > p, .s-three > ul {
-        padding: 0 2rem;
+    .s-three img{
+        width: 25rem;
     }
 }
 
 
 @media screen and (max-width: 550px) {
 
-    .cover .infos > button, .s-four .modulos > button, .s-seven > button {
-        width: 16rem;
+    .s-one .infos h1 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
     }
 
-    .logo img {
-        width: 16rem;
-    }
-
-    .cover .infos > h1 {
-        font-size: 1.3rem;
+    .s-one .infos p{
         padding: 0 2rem;
     }
 
-    .cover .infos > p {
-        font-size: .9rem;
+    .s-two .infos h1{
         padding: 0 4rem;
     }
 
-    .s-one {
-        padding: 6rem 2rem;
+    .s-three .infos{
+        width: 30rem;
     }
 
-    .one, .two, .three {
-        width: 15rem;
+    .s-three p {
+        width: 23.5rem;
     }
 
-    .one img, .two img, .three img {
-        width: 15rem;
-    }
-
-    .s-two {
-        padding: 5rem 0 7rem 0;
-    }
-
-    .s-three .logo img {
-        width: 15rem;
-    }
-
-    .s-three .infos {
-        width: 20rem;
-    }
-
-    .s-three img {
-        width: 20rem;
-    }
-
-    .s-four .infos > h1{
-        padding: 0 1rem;
-    }
-
-    .modulo {
-        width: 20rem;
-        height: 18rem;
-    }
-
-    .s-five {
-        padding: 4rem 2rem;
-    }
-
-    .s-five h1 {
-        font-size: 2rem;
-    }
-
-    .s-six > img {
-        width: 18rem;
-    }
-
-    .s-six .infos img {
-        width: 16rem;
-    }
-
-    .s-seven {
-        padding: 6rem 2rem;
-    }
-    
-    .s-seven .price {
-        text-align: center;
-    }
-
-    .s-seven .price > ul {
-        text-align: left;
-    }
-
-    .s-seven .price > h1 {
-        line-height: 2.5rem;
-    }
-
-    .s-seven .price > h4 {
-        padding-top: .5rem;
+    .s-three img{
+        width: 25rem;
     }
 
     footer {
         text-align: center;
     }
-}
-
-@media screen and (max-width: 320px) {
-
-    .s-two .infos h1 {
-        padding: 0 2rem;
-    }
-
-    .s-two .fdbcks {
-        padding: 0 0rem;
-    }
-
-    .s-three .infos {
-        width: 15rem;
-    }
-
-    .s-three img {
-        width: 16rem;
-    }
-
-    .modulo {
-        width: 16rem;
-        height: 21rem;
-    }
-
-    .s-five img {
-        width: 6rem;
-    }
-
-    .s-five h4, .s-six h4 {
-        font-size: 1rem;
-    }
-
-    .s-five h1 {
-        font-size: 1.6rem;
-    }
-
-    .s-five h2 {
-        font-size: 1.2rem;
-    }
-
-    .s-six > img {
-        width: 15rem;
-    }
-
 }
