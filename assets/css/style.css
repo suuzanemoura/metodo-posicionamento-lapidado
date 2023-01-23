@@ -31,7 +31,7 @@ a {
     align-items: center;
     width: 100%;
     padding: 2.5rem 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     gap: 4rem;
 }
 
@@ -663,6 +663,10 @@ footer {
         padding: 0 2rem;
     }
 
+    .s-two {
+        background-size: 35%;
+    }
+
     .s-two .fdbcks {
         flex-direction: column;
     }
@@ -693,6 +697,7 @@ footer {
     .s-one .infos p{
         padding: 0 2rem;
     }
+
 
     .s-two .infos h1{
         padding: 0 4rem;
@@ -735,6 +740,10 @@ footer {
 
     .s-one {
         padding: 6rem 2rem;
+    }
+
+    .s-two {
+        background-size: 45%;
     }
 
     .one, .two, .three {
