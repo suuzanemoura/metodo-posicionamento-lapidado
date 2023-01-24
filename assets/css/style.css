@@ -398,6 +398,7 @@ a {
 
 .s-five .infos h4 {
     color: #C69BAA;
+    font-size: 1.2rem;
 }
 
 .s-six {
@@ -845,6 +846,13 @@ footer {
 
     footer {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cover .infos > h1 {
+        font-size: 1.4rem;
+        padding: 0 1rem;
     }
 }
 
