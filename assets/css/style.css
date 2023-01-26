@@ -56,7 +56,7 @@ a {
     width: 25rem;
 }
 
-.cover .infos > button, .s-four button, .s-six > button {
+.cover .infos form > button, .s-four form > button, .s-six form > button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -71,11 +71,11 @@ a {
     cursor: pointer;
 }
 
-.cover .infos > button:hover, .s-four button:hover, .s-six > button:hover{
+.cover .infos form > button:hover, .s-four form > button:hover, .s-six form > button:hover{
     background: #31b302;
 }
 
-.cover .infos > button:active, .s-four button:active, .s-six > button:active{
+.cover .infos form > button:active, .s-four form > button:active, .s-six > form > button:active{
     background-color: #44d102;
 }
 
@@ -292,7 +292,7 @@ a {
     gap: 2rem;
 }
 
-.s-four button, .s-six button {
+.s-four form > button, .s-six form > button {
     margin: 0 15rem;
 }
 
@@ -415,7 +415,7 @@ a {
     
 }
 
-.s-six button {
+.s-six form > button {
     animation: pulse;
     animation-duration: 1s; 
     animation-iteration-count: infinite;
@@ -648,7 +648,7 @@ footer {
         text-align: center;
     }
 
-    .s-six > button {
+    .s-six form > button {
         margin: 0 1rem;
     }
 
@@ -688,7 +688,7 @@ footer {
         padding: 0 10rem;
     }
 
-    .s-four button{
+    .s-four form > button{
         margin: 0 1rem;
     }
 }
@@ -742,7 +742,7 @@ footer {
 
 @media screen and (max-width: 550px) {
 
-    .cover .infos > button, .s-four .modulos > button, .s-six > button {
+    .cover .infos form > button, .s-four .modulos form > button, .s-six form > button {
         width: 16rem;
     }
 
@@ -756,7 +756,7 @@ footer {
     }
 
     .cover .infos > p {
-        padding: 0 2rem;
+        padding: 0 1.5rem;
     }
 
     .s-one {
@@ -858,8 +858,8 @@ footer {
 
 @media screen and (max-width: 320px) {
 
-    .cover .infos > p {
-        padding: 0 2rem;
+    .cover .infos > h1 {
+        font-size: 1.3rem;
     }
 
     .logo img {
