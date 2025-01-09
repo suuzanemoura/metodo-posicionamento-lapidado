@@ -1,34 +1,38 @@
-# Método Posicionamento Lapidado
-
-https://user-images.githubusercontent.com/104701271/215276259-53466e15-e152-4814-8623-65c8f6fb6ec4.mp4
+# Método Posicionamento Lapidado - Landing Page
 
 ## Introdução
 
-Landing Page para o lançamento da mentoria Método Posicionamento Lapidado por Bárbara Lourenço (@barbara.llourenco).
+Landing Page desenvolvida para o lançamento da mentoria **Método Posicionamento Lapidado** por **Bárbara Lourenço** [@barbara.llourenco](https://www.instagram.com/barbara.llourenco).
+
+A página apresenta informações detalhadas sobre a mentoria e permite aos usuários realizar a compra com facilidade.
 
 ## Link de Acesso
 
-- Deploy no Vercel: [Clique aqui!](https://metodo-posicionamento-lapidado.vercel.app/)
+- [Acesse o deploy no Vercel](https://metodo-posicionamento-lapidado.vercel.app/)
+
 
 ## Sobre o Projeto
 
 ### Tecnologias
-- HTML5
-- CSS3
+- **HTML5**
+- **CSS3**
+
+### Destaques do Projeto
+- **Design atraente e funcional** para capturar leads e engajar o público-alvo.
+- **Estrutura otimizada para conversão** e experiência do usuário (UX).
+- **Elementos visuais alinhados à identidade da mentoria**, reforçando a mensagem da marca.
+- **Desenvolvido exclusivamente com HTML5 e CSS3**, garantindo uma página leve e responsiva.
 
 ### Funcionalidades
-
-- Deve ser possível acessar todas as informações sobre a mentoria
-- Deve ser possível ser redirecionado ao checkout da compra da mentoria ao clicar em um dos três botões em toda a landing page.
-
-### Status do projeto
-
-- Concluído ⏳
-
-## Contato
-
-E-mail: suuzanemoura@gmail.com
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suuzanemoura/)
+- Exibe todas as informações sobre a mentoria.
+- Permite redirecionar o usuário ao **checkout da compra** ao clicar em qualquer um dos **três botões** disponíveis na página.
 
 
+## Status do Projeto
+
+- **Concluído** ⏳
+
+## <img alt="Coração Roxo" height="15" src="https://github.com/suuzanemoura/suuzanemoura/assets/104701271/ce158244-38f2-4162-b0a4-24b1cfa66ef8"> **Contato**  
+[![Email](https://img.shields.io/badge/-Gmail-EBE2F1?style=for-the-badge&logo=gmail&logoColor=460C68)](mailto:suuzanemoura@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-EBE2F1?style=for-the-badge&logo=linkedin&logoColor=460C68)](https://www.linkedin.com/in/suuzanemoura)
+[![Behance](https://img.shields.io/badge/-Behance-EBE2F1?style=for-the-badge&logo=behance&logoColor=460C68)](https://www.behance.net/suzanemoura)
